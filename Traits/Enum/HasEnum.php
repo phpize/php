@@ -1,6 +1,6 @@
 <?php
 
-namespace Traits\Enum;
+namespace Phpize\Php\Traits\Enum;
 
 trait HasEnum
 {
@@ -10,7 +10,7 @@ trait HasEnum
         return constant(static::class . '::UNDEFINED');
     }
 
-    public static function options(...$ignore): array
+    public static function options(): array
     {
         return array_column(self::stakes(), 'value', 'name');
     }
