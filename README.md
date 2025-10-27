@@ -7,7 +7,7 @@ Each enum has its own detailed markdown file describing its cases, methods, and 
 
 ## Enums List
 
-- [Status Enum](ENUM.md) – Describes all possible statuses, their numeric values, and utility methods.   
+- [Enum](ENUM.md) – Describes all possible statuses, their numeric values, and utility methods.   
 
 ---
 
