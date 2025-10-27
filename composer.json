@@ -1,0 +1,14 @@
+{
+    "name": "phpize/php",
+    "license": "MIT",
+    "description": "Trait HasEnum para Enums PHP",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpize\\Php\\": "Enum/"
+        }
+    }
+}
