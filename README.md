@@ -1,14 +1,22 @@
-# PHP Enums Documentation
+# PHP Helpers Documentation
 
-This repository contains documentation for various PHP enums used in the project.  
-Each enum has its own detailed markdown file describing its cases, methods, and usage.
+This repository contains helpers for various PHP cases that frequently repeat.  
 
----
-
-## Enums List
-
-- [Enum](ENUM.md) – Describes all possible statuses, their numeric values, and utility methods.   
+The goal is to centralize reusable solutions and utility methods, avoiding repetitive code and making development more consistent across different parts of the system.  
+By organizing these implementations into separate files, developers can quickly reference available functionalities without reinventing common solutions.
 
 ---
 
-> Each link points to a dedicated markdown file containing all enum cases, labels, values, and description of utility methods provided by the `HasEnum` trait.
+## Features List
+
+- [ENUM](ENUM.md) – Contains cases and utility methods for managing statuses in systems.
+
+> Each link points to a dedicated markdown file containing cases, values, and descriptions of the available functionalities and utility methods.
+
+---
+
+## Contribute
+
+If you like this project and want to help make it even more useful, feel free to contribute.  
+Suggestions for improvements, bug fixes, or new implementations are welcome.  
+Join us and help build an increasingly complete and reusable PHP helpers library!
